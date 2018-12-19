@@ -1,0 +1,45 @@
+@font-face {font-family: Abuget;
+src: url('fonts/Abuget.ttf');}
+@font-face {font-family: Fisher;
+src: url('fonts/Fisher.otf');}
+@font-face {font-family: Flight;
+src: url('fonts/Flight.otf');}
+
+h2 {
+    text-align: center;
+    color: white !important ;
+    font-size:  56px !important;
+    font-weight:  350 !important;
+    font-family:  Fisher !important;
+}
+
+a {
+    color: white !important;
+    text-decoration:  none !important;
+  }
+
+a:hover {
+    color: gold !important;
+}
+
+body {
+  background-image: url("backgroundImages/storeBackground.png");
+  background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+h3 {
+  text-align: center !important;
+  color:blue !important;
+  font-family: Flight !important;
+  font-size: 50px !important;
+
+}
+p {
+  text-align: center;
+  color:white;
+  font-family: Flight;
+  font-size: 30px;
+  top: 30px;
+}
